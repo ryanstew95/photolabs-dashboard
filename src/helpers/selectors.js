@@ -1,9 +1,11 @@
 export function getTotalPhotos(state) {
   return state.photos.length;
+
 }
 
 export function getTotalTopics(state) {
   return state.topics.length;
+
 }
 
 export function getUserWithMostUploads(state) {
